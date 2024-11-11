@@ -10,8 +10,9 @@
 }
 
 body {
-  background-image: url(./assets/image/bg-image.jpg);
+  background-image: url(./assets/image/bg-image-certa.jpg);
   background-size:  cover;
+
   
 }
 
@@ -21,7 +22,7 @@ body {
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 22px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 img {
@@ -56,10 +57,16 @@ h1,h2{
   line-height: 150%;
 }
 
-footer{
-  text-align: center;
-}
 
 ul{
   padding-left: 24px;
+}
+
+footer{
+  text-align: center;
+  color: #F0E8C2 ;
+  padding-bottom: 48px
+}
+footer img {
+  vertical-align: middle;
 }
